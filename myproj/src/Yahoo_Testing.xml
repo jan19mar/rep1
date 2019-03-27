@@ -1,0 +1,16 @@
+<suite name="yahoo">
+ <test name="yahoo_sanity_ff">
+ <parameter name="browser" value="firefox"/>
+   <classes>
+      <class name="yahoosuite.SanityTest" />
+   </classes>
+ </test>
+ 
+ <test name="yahoo_retest_ff">
+ <parameter name="browser" value="firefox"/>
+   <classes>
+      <class name="yahoosuite.ReTest" />
+   </classes>
+ </test>
+ 
+</suite>
