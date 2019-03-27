@@ -17,6 +17,7 @@ public class Compose extends Mainclass
 {
   public void sendmail() throws Exception
   {
+	  System.out.println("helo");
       driver.findElement(By.xpath(Composepr.xcompose)).click();
       Thread.sleep(3000);
       try
